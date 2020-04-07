@@ -1,0 +1,10 @@
+title single page application new note
+
+note over browser
+browser executes the javascript code 
+adds the form entry into the list, renders
+the page and sends the updated entry onto the server
+end note
+
+browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server->browser: Statuscode 201
